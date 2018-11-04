@@ -25,9 +25,10 @@
     "validator": "^5.6.0"
   },
   "devDependencies": {
+    "eslint": "^5.8.0",
     "expect": "^1.20.2",
     "mocha": "^3.0.2",
-    "nodemon": "^1.10.2",
+    "nodemon": "^1.18.5",
     "supertest": "^2.0.0"
   }
 }
