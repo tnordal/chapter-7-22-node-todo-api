@@ -130,24 +130,6 @@ app.post('/users/login', (req, res) => {
     res.status(400).send();
   });
 
-
-  // var user = new User(body);
-
-  // console.log('email:', body.email);
-
-  // user.findOne(body.email).then((user) => {
-  //   if (!user) {
-  //     return res.status(400).send();
-  //   }
-  //   bcrypt.compare(body.password, user.password, (err, res) => {
-  //     if (err) {
-  //       return res.status(401).send();
-  //     }
-  //     res.status(200).send({user});
-  //   });
-  // }).catch((e) => {
-  //   res.status(400).send(e);
-  // });
 });
 
 app.listen(port, () => {
